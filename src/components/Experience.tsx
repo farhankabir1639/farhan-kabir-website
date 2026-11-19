@@ -25,23 +25,6 @@ const experiences = [
   },
   {
     title: "CEO & Co-Founder",
-    company: "AgentLens",
-    period: "2026–Present",
-    description:
-      "Building session replay for AI agents. Applying to YC S26. Working prototype live at agentlens.it.com.",
-    modal: {
-      website: "https://www.agentlens.it.com",
-      aboutDescription:
-        "AgentLens is an AI agent observability platform providing session replay for AI agents. Building session replay to help developers find and fix agent failures in seconds. Currently applying to YC S26 with a working prototype live at agentlens.it.com.",
-      impactBullets: [
-        "Building session replay for AI agents",
-        "Applying to YC S26",
-        "Working prototype live at agentlens.it.com",
-      ],
-    },
-  },
-  {
-    title: "CEO & Co-Founder",
     company: "Finni AI",
     period: "June 2025–Present",
     description: "Founded AI personal finance platform with 9 specialized micro-agents.",

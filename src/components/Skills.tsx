@@ -13,7 +13,7 @@ const toolDetails: Record<
       "Built multi-step agent pipelines connecting LLM reasoning with external tools, APIs, and vector memory. Designed retrieval-augmented generation workflows for structured task execution across multiple products. Used it to create reusable agent components that could be composed into larger systems.",
     impact:
       "Reduced prompt engineering overhead significantly and enabled faster agent feature development. Established reusable patterns that the team could build on without starting from scratch.",
-    usedAt: ["AgentLens", "Markopolo AI"],
+    usedAt: ["Markopolo AI"],
   },
   "OpenAI API": {
     category: "AI & Automation",
@@ -21,7 +21,7 @@ const toolDetails: Record<
       "Integrated GPT-4 for conversational interfaces, text embeddings for semantic search, and function calling for structured agent outputs. Used across multiple products as the primary inference layer for AI-powered features. Managed API costs through prompt optimization and response caching strategies.",
     impact:
       "Enabled rapid AI feature delivery without the overhead of model training or fine-tuning. Allowed the team to iterate on AI features weekly rather than in longer cycles.",
-    usedAt: ["AgentLens", "Finni AI", "Markopolo AI"],
+    usedAt: ["Finni AI", "Markopolo AI"],
   },
   "Claude API": {
     category: "AI & Automation",
@@ -29,7 +29,7 @@ const toolDetails: Record<
       "Integrated Anthropic's Claude for tasks requiring long-context understanding and nuanced document analysis. Used as a secondary model in multi-LLM pipelines where reasoning quality matters more than speed. Applied it specifically for evaluation and reflection steps within agent workflows.",
     impact:
       "Improved output quality on complex reasoning tasks compared to single-model approaches. Enabled more reliable agent behavior on edge cases that shorter-context models struggled with.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   Cursor: {
     category: "AI & Automation",
@@ -37,7 +37,7 @@ const toolDetails: Record<
       "Primary development environment for AI-assisted coding across all current projects. Used for architecture planning, feature implementation, debugging, and code reviews with AI pair programming. Leveraged it to build and ship entire MVP products significantly faster than traditional workflows.",
     impact:
       "Reduced time from idea to working prototype, enabling faster validation cycles. Allowed a small team to move at a pace typically requiring a larger engineering team.",
-    usedAt: ["AgentLens", "Finni AI", "Portfolio"],
+    usedAt: ["Finni AI", "Portfolio"],
   },
   n8n: {
     category: "AI & Automation",
@@ -68,8 +68,8 @@ const toolDetails: Record<
     howIUseIt:
       "Implemented multi-agent conversation patterns where specialized agents collaborate to complete complex tasks. Used to design agent orchestration logic with clearly defined roles and handoff protocols. Experimented with self-reflection and critique loops to improve agent output quality.",
     impact:
-      "Enabled agent collaboration patterns that handled tasks too complex for single-agent approaches. Provided a foundation for AgentLens's observability use cases around multi-agent systems.",
-    usedAt: ["AgentLens"],
+      "Enabled agent collaboration patterns that handled tasks too complex for single-agent approaches. Provided a foundation for building and debugging multi-agent systems.",
+    usedAt: ["Personal projects"],
   },
   CrewAI: {
     category: "AI & Automation",
@@ -77,7 +77,7 @@ const toolDetails: Record<
       "Designed role-based agent crews with defined responsibilities, tools, and task delegation logic. Built Finni AI's 9 micro-agent architecture using CrewAI's crew and task primitives. Used it to assign specific financial analysis roles to individual agents within the same pipeline.",
     impact:
       "Enabled modular agent design where individual agents could be updated without rebuilding the full system. Made the multi-agent architecture easier to debug, test, and iterate on.",
-    usedAt: ["Finni AI", "AgentLens"],
+    usedAt: ["Finni AI"],
   },
   LangSmith: {
     category: "AI Research & Evaluation",
@@ -85,7 +85,7 @@ const toolDetails: Record<
       "Set up end-to-end tracing for LLM chains and agent runs to capture inputs, outputs, and latency at every step. Used evaluation pipelines to score agent outputs against defined quality criteria. Leveraged it for debugging unexpected agent behavior in production scenarios.",
     impact:
       "Reduced time spent debugging agent failures by providing structured trace data. Gave the team confidence in deploying agent updates by catching regressions early.",
-    usedAt: ["AgentLens"],
+    usedAt: ["Markopolo AI"],
   },
   Figma: {
     category: "Product & Design",
@@ -93,7 +93,7 @@ const toolDetails: Record<
       "Led product design from early wireframes through to developer-ready high-fidelity prototypes. Ran collaborative design sprints with stakeholders and facilitated user testing sessions to validate assumptions. Maintained shared component libraries to keep design consistent across product surfaces.",
     impact:
       "Improved design-to-development handoff quality and reduced back-and-forth during implementation. Helped align stakeholders early through visual prototypes before any engineering work began.",
-    usedAt: ["TimeTackle", "Markopolo AI", "AgentLens", "Finni AI"],
+    usedAt: ["TimeTackle", "Markopolo AI", "Finni AI"],
   },
   Mixpanel: {
     category: "Product & Design",
@@ -117,7 +117,7 @@ const toolDetails: Record<
       "Deployed self-hosted PostHog for product analytics, session recordings, and feature flag management. Used feature flags to run controlled rollouts and kill switches for new features safely. Session recordings provided qualitative context to complement quantitative funnel data.",
     impact:
       "Gave the team full-stack visibility into user behavior while keeping data on our own infrastructure. Reduced time between deploying a feature and understanding how users actually interact with it.",
-    usedAt: ["AgentLens"],
+    usedAt: ["Markopolo AI"],
   },
   Hotjar: {
     category: "Product & Design",
@@ -165,7 +165,7 @@ const toolDetails: Record<
       "Built and maintained product wikis, feature specifications, OKR tracking pages, and team onboarding docs. Used it as the central knowledge base to keep distributed teams aligned and reduce repeated context-sharing. Created templates for recurring processes like sprint planning and user research documentation.",
     impact:
       "Reduced onboarding time for new team members by centralizing key information in one place. Improved consistency in how product work was documented and communicated across teams.",
-    usedAt: ["TimeTackle", "Markopolo AI", "AgentLens"],
+    usedAt: ["TimeTackle", "Markopolo AI"],
   },
   Tableau: {
     category: "Analytics & Data",
@@ -181,7 +181,7 @@ const toolDetails: Record<
       "Set up event tracking, goal conversions, and custom reports to measure acquisition and engagement. Used it to attribute traffic sources and evaluate marketing campaign effectiveness. Configured audience segments for remarketing and behavioral targeting.",
     impact:
       "Provided clear visibility into which channels and campaigns drove quality user acquisition. Enabled marketing decisions to be tied directly to product activation and revenue outcomes.",
-    usedAt: ["Markopolo AI", "TimeTackle", "AgentLens", "Itenx"],
+    usedAt: ["Markopolo AI", "TimeTackle"],
   },
   SQL: {
     category: "Analytics & Data",
@@ -197,7 +197,7 @@ const toolDetails: Record<
       "Built data processing scripts, automation tools, and early-stage AI prototypes for rapid experimentation. Used for tasks like data cleaning, API integrations, and batch processing that didn't warrant full engineering effort. Applied it to validate AI feature concepts before committing to production implementation.",
     impact:
       "Accelerated the validation loop between idea and working proof of concept. Allowed product and data work to move forward without blocking the core engineering team.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   "Data Studio": {
     category: "Analytics & Data",
@@ -277,7 +277,7 @@ const toolDetails: Record<
       "Used for rapid prototyping and collaborative coding in the browser. Built and shared AI-powered demos and experiments without local environment setup.",
     impact:
       "Enabled quick validation of coding ideas and AI integrations. Reduced friction for sharing prototypes with stakeholders.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   Perplexity: {
     category: "AI & Automation",
@@ -285,7 +285,7 @@ const toolDetails: Record<
       "Used for research and fact-checking during product development. Leveraged AI-powered search for technical documentation and competitive analysis.",
     impact:
       "Accelerated research cycles for product and technical decisions. Improved accuracy of information gathering for feature planning.",
-    usedAt: ["AgentLens", "Markopolo AI"],
+    usedAt: ["Markopolo AI"],
   },
   Midjourney: {
     category: "AI & Automation",
@@ -293,7 +293,7 @@ const toolDetails: Record<
       "Generated visual assets for product mockups, marketing materials, and UI concept exploration. Used for rapid iteration on visual design directions.",
     impact:
       "Reduced dependency on design resources for early-stage visual exploration. Enabled faster experimentation with brand and UI aesthetics.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   "Whisper API": {
     category: "AI & Automation",
@@ -301,7 +301,7 @@ const toolDetails: Record<
       "Integrated speech-to-text for transcription of user voice inputs and call recordings. Used for accessibility features and content processing pipelines.",
     impact:
       "Enabled voice-based product interactions and improved accessibility. Automated transcription workflows for user research and support.",
-    usedAt: ["AgentLens", "Markopolo AI"],
+    usedAt: ["Markopolo AI"],
   },
   "Weights & Biases": {
     category: "AI Research & Evaluation",
@@ -309,7 +309,7 @@ const toolDetails: Record<
       "Used for experiment tracking on AI model evaluations and prompt optimization runs. Logged metrics, hyperparameters, and output samples to compare model performance systematically.",
     impact:
       "Made AI experimentation reproducible and easier to communicate to the team. Reduced time spent on manual experiment logging and comparison.",
-    usedAt: ["AgentLens"],
+    usedAt: ["Personal projects"],
   },
   "Hugging Face": {
     category: "AI & Automation",
@@ -317,7 +317,7 @@ const toolDetails: Record<
       "Used the model hub for exploring open-source models and running inference for prototyping tasks. Leveraged datasets and spaces for benchmarking and rapid experimentation.",
     impact:
       "Enabled cost-effective prototyping using open models before committing to paid APIs. Provided access to a broad range of model architectures for comparison.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   Linear: {
     category: "Product & Design",
@@ -325,7 +325,7 @@ const toolDetails: Record<
       "Used for engineering sprint management and issue tracking with a cleaner workflow than JIRA. Managed feature requests, bug tracking, and release cycles with the team.",
     impact:
       "Improved development velocity by keeping the team focused on clearly scoped sprint goals. Reduced overhead in project management with a more intuitive interface.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   Framer: {
     category: "Product & Design",
@@ -333,7 +333,7 @@ const toolDetails: Record<
       "Built interactive landing pages and marketing sites with no-code tooling. Used for rapid prototyping of marketing experiments without engineering dependency.",
     impact:
       "Reduced time to launch marketing pages from weeks to days. Enabled quick A/B testing of messaging and layouts.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   Maze: {
     category: "Product & Design",
@@ -357,7 +357,7 @@ const toolDetails: Record<
       "Created flowcharts, wireframes, and mind maps for product planning and documentation. Used for quick visual communication of ideas and processes.",
     impact:
       "Improved clarity of product specifications and user flows. Enabled faster alignment on complex system designs.",
-    usedAt: ["TimeTackle", "AgentLens"],
+    usedAt: ["TimeTackle"],
   },
   Looker: {
     category: "Analytics & Data",
@@ -429,7 +429,7 @@ const toolDetails: Record<
       "Evaluated RAG pipeline quality using automated metrics for faithfulness, relevance, and context recall. Used to benchmark changes to retrieval and generation components systematically.",
     impact:
       "Provided objective quality signals for AI output improvements beyond manual review. Enabled faster iteration on RAG configurations with confidence.",
-    usedAt: ["AgentLens"],
+    usedAt: ["Markopolo AI"],
   },
   Promptfoo: {
     category: "AI Research & Evaluation",
@@ -437,7 +437,7 @@ const toolDetails: Record<
       "Built automated prompt evaluation suites to test prompts against edge cases and regressions. Used to compare prompt variants systematically before deploying changes.",
     impact:
       "Reduced prompt-related production issues by catching failures in a test environment first. Made prompt engineering more rigorous and less dependent on manual spot-checking.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   Evals: {
     category: "AI Research & Evaluation",
@@ -445,7 +445,7 @@ const toolDetails: Record<
       "Used evaluation frameworks to systematically test AI outputs against defined criteria. Built test suites for regression detection and quality benchmarking.",
     impact:
       "Improved confidence in AI deployments with structured quality gates. Reduced manual testing overhead for AI feature releases.",
-    usedAt: ["AgentLens"],
+    usedAt: ["Markopolo AI"],
   },
   "OpenAI Evals": {
     category: "AI Research & Evaluation",
@@ -453,7 +453,7 @@ const toolDetails: Record<
       "Leveraged OpenAI's evaluation framework for benchmarking LLM outputs. Used for comparing model versions and prompt variations on standardized tasks.",
     impact:
       "Provided reproducible benchmarks for AI quality improvements. Enabled data-driven decisions on model and prompt changes.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   Braintrust: {
     category: "AI Research & Evaluation",
@@ -461,7 +461,7 @@ const toolDetails: Record<
       "Used for AI evaluation and experiment tracking. Built evaluation datasets and ran systematic comparisons of model and prompt performance.",
     impact:
       "Improved rigor in AI development with structured evaluation workflows. Enabled team alignment on quality standards for AI features.",
-    usedAt: ["AgentLens"],
+    usedAt: ["Markopolo AI"],
   },
   "Arize AI": {
     category: "AI Research & Evaluation",
@@ -469,7 +469,7 @@ const toolDetails: Record<
       "Used for production LLM monitoring and drift detection on agent outputs. Set up alerts for degraded model performance and tracked embedding quality over time.",
     impact:
       "Improved confidence in production AI behavior with systematic monitoring. Caught output quality regressions before they affected users at scale.",
-    usedAt: ["AgentLens"],
+    usedAt: ["Personal projects"],
   },
   GitHub: {
     category: "Dev & Infrastructure",
@@ -477,7 +477,7 @@ const toolDetails: Record<
       "Managed version control, code reviews, and CI/CD workflows across all projects. Used for issue tracking, project boards, and collaboration with engineering teams.",
     impact:
       "Enabled consistent development workflows and code quality through structured review processes. Centralized project visibility and documentation.",
-    usedAt: ["AgentLens", "Finni AI", "TimeTackle"],
+    usedAt: ["Finni AI", "TimeTackle"],
   },
   Vercel: {
     category: "Dev & Infrastructure",
@@ -485,7 +485,7 @@ const toolDetails: Record<
       "Deployed all Next.js frontend projects with automatic CI/CD from GitHub. Used preview deployments for stakeholder reviews before merging to production.",
     impact:
       "Reduced deployment friction and enabled faster feedback cycles on UI changes. Made frontend shipping a one-step process integrated directly with the development workflow.",
-    usedAt: ["AgentLens", "Finni AI", "Portfolio"],
+    usedAt: ["Finni AI", "Portfolio"],
   },
   Railway: {
     category: "Dev & Infrastructure",
@@ -493,7 +493,7 @@ const toolDetails: Record<
       "Used for deploying Node.js backend services with minimal infrastructure configuration. Managed environment variables, service scaling, and deployment pipelines through a simple interface.",
     impact:
       "Enabled backend deployment without DevOps expertise, keeping the team focused on product. Reduced infrastructure maintenance overhead for early-stage services.",
-    usedAt: ["AgentLens"],
+    usedAt: ["Markopolo AI"],
   },
   Supabase: {
     category: "Dev & Infrastructure",
@@ -501,7 +501,7 @@ const toolDetails: Record<
       "Used as the backend database and auth layer for rapid product prototyping. Leveraged real-time subscriptions and row-level security for user data management.",
     impact:
       "Reduced backend setup time significantly compared to building from scratch. Enabled small teams to ship full-stack features without a dedicated backend engineer.",
-    usedAt: ["AgentLens", "Finni AI"],
+    usedAt: ["Finni AI"],
   },
   Firebase: {
     category: "Dev & Infrastructure",
@@ -517,7 +517,7 @@ const toolDetails: Record<
       "Containerized applications for consistent development and deployment environments. Used for local development parity and production deployments.",
     impact:
       "Eliminated environment-related bugs with reproducible builds. Simplified deployment processes across different hosting environments.",
-    usedAt: ["AgentLens", "Markopolo AI"],
+    usedAt: ["Markopolo AI"],
   },
   AWS: {
     category: "Dev & Infrastructure",

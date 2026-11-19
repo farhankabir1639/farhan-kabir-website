@@ -5,15 +5,15 @@ import Modal, { ModalCloseButton } from "./Modal";
 
 const startups = [
   {
-    name: "AgentLens",
-    initials: "Ag",
+    name: "Leadstore",
+    initials: "Ls",
     oneLiner:
-      "Session replay and observability for AI agents. Find failures in seconds, not hours.",
-    tags: ["AI Observability", "Developer Tools", "SaaS"],
-    logoUrl: "https://logo.clearbit.com/agentlens.it.com",
+      "AI visibility platform: see how your brand shows up across search, AI assistants, and app stores.",
+    tags: ["AI Visibility", "MCP", "B2B SaaS"],
+    logoUrl: "https://logo.clearbit.com/leadstore.xyz",
     description:
-      "AgentLens is an AI agent observability platform that gives developers session replay for AI agents — capturing every LLM call, tool use, and sub-agent interaction as a structured session. Find and fix agent failures in seconds instead of hours of log digging. Currently applying to YC S26.",
-    website: "https://www.agentlens.it.com",
+      "Leadstore gives brands a single visibility score across search engines, AI assistants, and app stores, plus a prioritized playbook of fixes for where they're missing, uncited, or misrepresented. Available on web and mobile, with a remote MCP server (mcp.leadstore.xyz) that connects to ChatGPT, Claude, Perplexity, Cursor, and VS Code. Built solo.",
+    website: "https://leadstore.xyz",
   },
   {
     name: "Finni AI",
@@ -27,15 +27,15 @@ const startups = [
     website: "https://www.heyfinni.com/",
   },
   {
-    name: "Itenx.it",
-    initials: "It",
+    name: "Zelos",
+    initials: "Ze",
     oneLiner:
-      "All-in-one platform for managing product iterations and stakeholder feedback loops.",
-    tags: ["Product Management", "Collaboration", "SaaS"],
-    logoUrl: "https://logo.clearbit.com/itenx.it.com",
+      "HR recruitment, CV, and personal-website deployment in one web app.",
+    tags: ["HR Tech", "Recruitment", "SaaS"],
+    logoUrl: "https://logo.clearbit.com/zelos.it.com",
     description:
-      "Itenx.it is an all-in-one platform for managing product iterations and stakeholder feedback loops. Built for product teams who want to ship faster with cleaner feedback cycles and better collaboration across departments.",
-    website: "https://itenx.it.com",
+      "Zelos is a web app for HR recruitment that also helps candidates build their CV and deploy a personal website. Recently launched. Built solo.",
+    website: "https://zelos.it.com",
   },
 ];
 
