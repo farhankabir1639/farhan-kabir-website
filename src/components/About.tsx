@@ -44,8 +44,8 @@ export default function About() {
           <div className="flex-1">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               I&apos;m a founder and AI product builder with a track record of launching products
-              from 0 to 1. As a founding team member at TimeTackle (YC W21), I helped scale to $500K
-              ARR in 3 years. At Markopolo AI (HF0), I shipped 100+ AI features and led our expansion
+              from 0 to 1. As a founding team member at TimeTackle (YC W21), I helped scale the product
+              from zero to 1,000+ B2B/B2C customers in 3 years. At Markopolo AI (HF0), I shipped 100+ AI features and led our expansion
               into South Korea — recognized as Top 10 at the Korean Startup Grand Challenge 2025. I
               specialize in turning complex AI ideas into scalable, user-loved products.
             </p>

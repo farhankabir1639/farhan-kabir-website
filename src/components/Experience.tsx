@@ -28,15 +28,15 @@ const experiences = [
     company: "AgentLens",
     period: "2026–Present",
     description:
-      "Building session replay for AI agents. Applying to YC S26. Working prototype live at agentlens.it.",
+      "Building session replay for AI agents. Applying to YC S26. Working prototype live at agentlens.it.com.",
     modal: {
-      website: "https://www.agentlens.it",
+      website: "https://www.agentlens.it.com",
       aboutDescription:
-        "AgentLens is an AI agent observability platform providing session replay for AI agents. Building session replay to help developers find and fix agent failures in seconds. Currently applying to YC S26 with a working prototype live at agentlens.it.",
+        "AgentLens is an AI agent observability platform providing session replay for AI agents. Building session replay to help developers find and fix agent failures in seconds. Currently applying to YC S26 with a working prototype live at agentlens.it.com.",
       impactBullets: [
         "Building session replay for AI agents",
         "Applying to YC S26",
-        "Working prototype live at agentlens.it",
+        "Working prototype live at agentlens.it.com",
       ],
     },
   },
@@ -61,15 +61,15 @@ const experiences = [
     company: "TimeTackle (YC W21)",
     period: "Sep 2020–Sep 2024",
     description:
-      "Founding team member. Scaled from $0 to $500K ARR in 3 years. Managed 1,000+ B2B/B2C customers. Achieved #3 on Product Hunt.",
+      "Founding team member. Scaled the product from zero in 3 years. Managed 1,000+ B2B/B2C customers. Achieved #3 on Product Hunt.",
     modal: {
       website: "https://www.timetackle.com/",
       aboutDescription:
-        "TimeTackle is a YC W21-backed calendar analytics and time intelligence platform. As a founding team member, I helped scale from $0 to $500K ARR in 3 years, managed 1,000+ B2B/B2C customers, and led the #3 Product Hunt launch generating $20K revenue in 3 months.",
+        "TimeTackle is a YC W21-backed calendar analytics and time intelligence platform. As a founding team member, I helped scale the product from zero in 3 years, managed 1,000+ B2B/B2C customers including enterprise accounts like Deel, Chan Zuckerberg Initiative, Neo4j, and Roblox, and led the #3 Product Hunt launch.",
       impactBullets: [
-        "Founding team member, scaled $0 → $500K ARR",
+        "Founding team member, scaled the product from zero",
         "Managed 1,000+ B2B/B2C customers",
-        "#3 Product Hunt launch, $20K revenue in 3 months",
+        "#3 Product Hunt launch",
         "4 years of product growth experience",
       ],
     },

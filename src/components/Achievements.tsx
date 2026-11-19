@@ -1,4 +1,4 @@
-import { Trophy, DollarSign, Rocket, Bot, GraduationCap } from "lucide-react";
+import { Trophy, Users, Rocket, Bot, GraduationCap } from "lucide-react";
 
 const achievements = [
   {
@@ -7,9 +7,9 @@ const achievements = [
     label: "Korea KSGC 2025",
   },
   {
-    icon: DollarSign,
-    stat: "$500K ARR",
-    label: "YC Startup",
+    icon: Users,
+    stat: "1,000+ Customers",
+    label: "TimeTackle (YC W21)",
   },
   {
     icon: Rocket,

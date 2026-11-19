@@ -10,10 +10,10 @@ const startups = [
     oneLiner:
       "Session replay and observability for AI agents. Find failures in seconds, not hours.",
     tags: ["AI Observability", "Developer Tools", "SaaS"],
-    logoUrl: "https://logo.clearbit.com/agentlens.it",
+    logoUrl: "https://logo.clearbit.com/agentlens.it.com",
     description:
       "AgentLens is an AI agent observability platform that gives developers session replay for AI agents — capturing every LLM call, tool use, and sub-agent interaction as a structured session. Find and fix agent failures in seconds instead of hours of log digging. Currently applying to YC S26.",
-    website: "https://www.agentlens.it",
+    website: "https://www.agentlens.it.com",
   },
   {
     name: "Finni AI",
@@ -32,10 +32,10 @@ const startups = [
     oneLiner:
       "All-in-one platform for managing product iterations and stakeholder feedback loops.",
     tags: ["Product Management", "Collaboration", "SaaS"],
-    logoUrl: "https://logo.clearbit.com/itenx.it",
+    logoUrl: "https://logo.clearbit.com/itenx.it.com",
     description:
       "Itenx.it is an all-in-one platform for managing product iterations and stakeholder feedback loops. Built for product teams who want to ship faster with cleaner feedback cycles and better collaboration across departments.",
-    website: "https://itenx.it",
+    website: "https://itenx.it.com",
   },
 ];
 
